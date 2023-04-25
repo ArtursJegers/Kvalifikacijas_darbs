@@ -1,4 +1,4 @@
-	<?php
+<?php
 
 session_start();
 if(!isset($_SESSION["uid"])){
@@ -30,18 +30,6 @@ if(!isset($_SESSION["uid"])){
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="#" id="categories_container" class="dropdown-toggle" data-toggle="dropdown">Categories</a>
-			<ul class="dropdown-menu">
-						<li><a href="itemsforback.php" style="text-decoration:none; color:black;">Items for back</a></li>
-						<li class="divider"></li>
-						<li><a href="itemsforwrist.php" style="text-decoration:none; color:black;">Items for wrists</a></li>
-						<li class="divider"></li>
-						<li><a href="chairs.php" style="text-decoration:none; color:black;">Chairs</a></li>
-						<li class="divider"></li>
-						<li><a href="desks.php" style="text-decoration:none; color:black;">Desks</a></li>
-						<li class="divider"></li>
-						<li><a href="massagers.php" style="text-decoration:none; color:black;">Massagers</a></li>
-					</ul></li>
 				<li><a href="#" id="cart_container" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">0</span></a>
 					<div class="dropdown-menu" style="width:400px;">
 						<div class="panel panel-success">
@@ -79,8 +67,5 @@ if(!isset($_SESSION["uid"])){
 	<p><br/></p>
 	<p><br/></p>
 	<p><br/></p>
-		<div id="get_product">
-						<!--Here we get product Request-->
-		</div>
 </body>
 </html>

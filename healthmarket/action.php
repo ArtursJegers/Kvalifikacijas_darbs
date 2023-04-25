@@ -32,7 +32,7 @@ if(isset($_POST["page"])){
 }
 
 if(isset($_POST["getProduct"])){
-	$limit = 9;
+	$limit = 30;
 	if(isset($_POST["setPage"])){
 		$pageno = $_POST["pageNumber"];
 		$start = ($pageno * $limit) - $limit;
@@ -63,7 +63,6 @@ if(isset($_POST["getProduct"])){
 		}
 	}
 }
-
 	if(isset($_POST["addToCart"])){
 		
 

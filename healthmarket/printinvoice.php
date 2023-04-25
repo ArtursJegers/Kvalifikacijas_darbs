@@ -183,22 +183,8 @@ $trx_id=$_SESSION["trx_id"] ;
 
 						</table>
 						<div  align="right" style="font-size:20px;"><b>Overall Price = <?PHP echo  $total;?></b></div>
-						
-					
-
 					</div> 
-					
 				</div>
-					<div align="center">
-						<a href="javascript:forprint()" class="btn btn-success" >
-						Print Transaction Report</br></a>
-						
-					</div><br><br><br>
-					<div align="center"></div>
-				</div>
-			</div>
-			<div class="col-md-2"></div>
-			
 		</div>
 </body>	
 </html>
